@@ -1,0 +1,108 @@
+/*Text*/
+h1, .logo {
+    font-family: 'Forum'
+}
+
+h1 {
+    font-size: 48px;
+    kerning: 50%;
+    letter-spacing: 50%;
+}
+
+.logo {
+    background-color: #FCF2E7;
+    font-size: 70px;
+}
+
+nav, button, h2, h3, h4, h5 {
+    font-family: 'Work Sans';
+}
+
+nav, button, h4 {
+    font-size: 24px;
+}
+
+button {
+    font-weight: bold;
+}
+
+nav, h2, h3, h4, h5 {
+    font-weight: normal;
+}
+
+
+/*Top Nav*/
+.navbar {
+    background-color: #FCF2E7;
+}
+.nav{
+    background-color: #FCF2E7;
+    position: sticky;
+    top: 0;
+}
+
+.nav-item {
+    color: #000000;
+}
+
+a {
+    color: #000000;
+}
+
+a:link {
+    color: #000000;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+body {
+    background-color: #FCF2E7;
+    margin-top: 180px;
+    padding: 20px;
+    margin-bottom: -8px;
+}
+
+/*Hero (Ricochet Script)*/
+
+
+
+/*Something yet to be named*/
+.row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 25%;
+    padding: 5px;
+    width: 346px;
+    height: 500px;
+  }
+
+  .cb_wrap.one_image .cb_copy_left {
+    background-color: #fff;
+    width: 415px;
+    vertical-align: top;
+    padding: 42px 46px;
+  }
+
+.cb_sngl_img {
+    display: inline-block;
+    width: 949px;
+    height: 461px;
+    left: 522px;
+    top: 219px;
+  }
+
+.cb_copy_left {
+    display: inline-block;
+    width: 467px;
+    height: 461px;
+    left: 35px;
+    top: 219px; 
+}
